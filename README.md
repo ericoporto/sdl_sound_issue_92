@@ -1,1 +1,2 @@
-# sdl_sound_issue_92
+# sdl_sound_bug_silence
+ for sdl sound bug #92
