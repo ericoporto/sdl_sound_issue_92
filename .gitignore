@@ -50,3 +50,54 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Linux related paths
+.pc
+
+## start Android related
+
+# Built application files
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Gradle files
+.gradle/
+
+# Log Files
+*.log
+
+# Android Studio Navigation editor temp files
+.navigation/
+
+# IntelliJ
+*.iml
+.idea/
+# CLion
+cmake-build-*/
+
+# Android Studio 3 in .gitignore file.
+.idea/caches
+.idea/modules.xml
+# Comment next line if keeping position of elements in Navigation Editor is relevant for you
+.idea/navEditor.xml
+
+
+# External native build folder generated in Android Studio 2.2 and later
+.externalNativeBuild
+.cxx/
+
+# Version control
+vcs.xml
+
+# Generated files
+bin/
+gen/
+out/
