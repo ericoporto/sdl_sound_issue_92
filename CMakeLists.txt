@@ -120,4 +120,11 @@ include(FetchSDL2)
 
 include(FetchSDL_Sound)
 
-    add_executable(sdl_sound_issue_92)
+add_executable(sdl_sound_issue_92)
+
+target_sources(sdl_sound_issue_92
+        PRIVATE
+        main.c
+)
+
+target_link_libraries(sdl_sound_issue_92 PRIVATE ${SDL2_LIBRARIES} ${SDL2_LIBRARIES} SDL2_sound::SDL2_sound)
