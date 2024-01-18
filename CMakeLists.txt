@@ -128,3 +128,5 @@ target_sources(sdl_sound_issue_92
 )
 
 target_link_libraries(sdl_sound_issue_92 PRIVATE ${SDL2_LIBRARIES} ${SDL2_LIBRARIES} SDL2_sound::SDL2_sound)
+
+configure_file(VacuumNoise.ogg VacuumNoise.ogg COPYONLY)
